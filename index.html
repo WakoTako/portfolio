@@ -21,6 +21,10 @@
             </ul>
         </nav>
     </header>
+    
+
+
+
 
     <!-- Hero Section -->
     <section id="hero" class="bg-blue-900 text-white h-screen flex flex-col justify-center items-center">
@@ -60,6 +64,78 @@
             </div>
         </div>
     </section>
+    
+    <section class="container mx-auto mt-8 p-4 bg-white">
+        <h2 class="text-2xl font-bold">Sign In</h2>
+        <form class="mt-4" id="signInForm">
+            <div class="mb-4">
+                <label for="firstName" class="block text-gray-700 text-sm font-bold mb-2">First Name</label>
+                <input type="text" id="firstName" name="firstName" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="lastName" class="block text-gray-700 text-sm font-bold mb-2">Last Name</label>
+                <input type="text" id="lastName" name="lastName" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="phoneNumber" class="block text-gray-700 text-sm font-bold mb-2">Phone Number</label>
+                <input type="text" id="phoneNumber" name="phoneNumber" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+                <input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="gender" class="block text-gray-700 text-sm font-bold mb-2">Gender</label>
+                <select id="gender" name="gender" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label for="age" class="block text-gray-700 text-sm font-bold mb-2">Age</label>
+                <input type="number" id="age" name="age" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <!-- Add the remaining fields here -->
+            <div class="mb-4">
+                <label for="address" class="block text-gray-700 text-sm font-bold mb-2">Address</label>
+                <input type="text" id="address" name="address" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="city" class="block text-gray-700 text-sm font-bold mb-2">City</label>
+                <input type="text" id="city" name="city" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="state" class="block text-gray-700 text-sm font-bold mb-2">State</label>
+                <input type="text" id="state" name="state" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="zipCode" class="block text-gray-700 text-sm font-bold mb-2">Zip Code</label>
+                <input type="text" id="zipCode" name="zipCode" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="education" class="block text-gray-700 text-sm font-bold mb-2">Education</label>
+                <input type="text" id="education" name="education" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="occupation" class="block text-gray-700 text-sm font-bold mb-2">Occupation</label>
+                <input type="text" id="occupation" name="occupation" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="interests" class="block text-gray-700 text-sm font-bold mb-2">Interests</label>
+                <input type="text" id="interests" name="interests" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="password" class="block text-gray-700 text-sm font-bold mb-2">Password</label>
+                <input type="password" id="password" name="password" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Sign In</button>
+            </div>
+        </form>
+    </section>
+    
+
 
     <!-- Contact Section -->
     <section id="contact" class="bg-blue-900 text-white py-12 px-4">
